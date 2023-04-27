@@ -113,7 +113,14 @@ For each of the following questions, note down the output as well as a brief exp
   The === operator, on the other hand, is called the "strict equality" operator. It compares two values for equality without 
   performing type coercion.
   
+16. (see part2-question16.js) <br>
+
+17. function call modifyArray([1,2,3], doSomething). <br>
+
+    when modifyArray is called with the array [1, 2, 3] and the callback function doSomething, it first
+    calls doSomething(1) which returns 2, and pushes it to newArr. Then it calls doSomething(2) which 
+    returns 4, and pushes it to newArr. Finally, it calls doSomething(3) which returns 6, and pushes it to 
+    newArr. The resulting newArr is [2, 4, 6], which is then returned. 
   
-17. 
   
-  
+18. (see part2-question18.js) <br>
