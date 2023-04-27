@@ -48,67 +48,67 @@
   This function, discountPrices(), will return an array containing the discounted price values of the input prices array based on the given   
   discount percentage.
   
-12.Given the above Object, write the notation for:  (These should be in your part2.md).
-  A. Accessing the value of the name property in the student object.
-     student.name
-  B. Accessing the value of the Grad Year property in the student object.
-     student['Grad Year']
-  C. Calling the function for the greeting property in the student object.
-     student.greeting()
-  D. Accessing the name property of the object in the Favorite Teacher property in student.
-     student['Favorite Teacher'].name
-  E. Access index zero in the array of the courseLoad property of the student object.
-     student.courseLoad[0]
+12.Given the above Object, write the notation for:  (These should be in your part2.md). <br>
+  A. Accessing the value of the name property in the student object. <br>
+     student.name <br>
+  B. Accessing the value of the Grad Year property in the student object.<br>
+     student['Grad Year'] <br>
+  C. Calling the function for the greeting property in the student object. <br>
+     student.greeting() <br>
+  D. Accessing the name property of the object in the Favorite Teacher property in student. <br> 
+     student['Favorite Teacher'].name <br>
+  E. Access index zero in the array of the courseLoad property of the student object. <br>
+     student.courseLoad[0] <br>
      
-For each of the following questions, note down the output as well as a brief explanation why that output was given  (These should be in your part2.md).
+For each of the following questions, note down the output as well as a brief explanation why that output was given  (These should be in your part2.md). <br>
 
-13. Arithmetic.
-  A. ‘3’ + 2.
-     Output: '32'.
-     Explanation: integers map to their exact string representation.
-  B. ‘3’ - 2.
-     Output: 1.
-     Explanation: string map to their exact integer representation .
-  C. 3 + null.
-     Output: 3.
-     Explanation: null is being converted to the value 0.
-  D. ‘3’ + null.
-     Output: '3null'.
-     Explanation: null is being mapped to it's exact string representation.
-  E. true + 3.
-     Output: 4.
-     Explanation: boolean map to their exact integer representation.
-  F. false + null.
-     Output: 0.
-     Explanation: false and null is being mapped to their integer representation.
-  G. '3' + undefined.
-     Output: '3undefined'.
-     Explanation: undefined is being mapped to it's exact string representation.
-  H. '3' - undefined.
-     Output: NaN.
-     Explanation: '3' turned into integer but undefined doesn't have integer representation so return (Not a number).
+13. Arithmetic. <br>
+  A. ‘3’ + 2. <br> 
+     Output: '32'. <br>
+     Explanation: integers map to their exact string representation. <br>
+  B. ‘3’ - 2. <br>
+     Output: 1. <br>
+     Explanation: string map to their exact integer representation . <br>
+  C. 3 + null. <br>
+     Output: 3. <br>
+     Explanation: null is being converted to the value 0. <br>
+  D. ‘3’ + null. <br>
+     Output: '3null'. <br>
+     Explanation: null is being mapped to it's exact string representation. <br>
+  E. true + 3. <br>
+     Output: 4. <br>
+     Explanation: boolean map to their exact integer representation. <br>
+  F. false + null. <br>
+     Output: 0. <br>
+     Explanation: false and null is being mapped to their integer representation. <br>
+  G. '3' + undefined. <br>
+     Output: '3undefined'. <br>
+     Explanation: undefined is being mapped to it's exact string representation. <br>
+  H. '3' - undefined. <br>
+     Output: NaN. <br>
+     Explanation: '3' turned into integer but undefined doesn't have integer representation so return (Not a number). <br>
      
-14. Comparision.
-  A. ‘2’ > 1.
-     Output: true.
-     Explanation: string mapped to it's exact integer representation and being compared.
-  B. ‘2’ < ‘12’.
-     Output: false.
-     Explanation: compares the length of the strings.
-  C. 2 == ‘2’.
-     Output: true.
-     Explanation: == operator perform type coercion, string mapped to it's exact integer representation and being compared. 
-  D. 2 === ‘2’.
-     Output: false.
-     Explanation: === operator does not perform type coercion, number != string.
-  E. true == 2.
-     Output: false.
-     Explanation: boolean map to it's exact integer representation.
-  F. true === Boolean(2).
-     Output: true.
-     Explanation: Boolean(2) converts to true because 2 is a truthy value.
+14. Comparision. <br>
+  A. ‘2’ > 1. <br>
+     Output: true. <br>
+     Explanation: string mapped to it's exact integer representation and being compared. <br>
+  B. ‘2’ < ‘12’. <br>
+     Output: false. <br>
+     Explanation: compares the length of the strings. <br>
+  C. 2 == ‘2’. <br> 
+     Output: true. <br>
+     Explanation: == operator perform type coercion, string mapped to it's exact integer representation and being compared.  <br>
+  D. 2 === ‘2’. <br>
+     Output: false. <br>
+     Explanation: === operator does not perform type coercion, number != string. <br>
+  E. true == 2. <br>
+     Output: false. <br>
+     Explanation: boolean map to it's exact integer representation. <br>
+  F. true === Boolean(2). <br>
+     Output: true. <br>
+     Explanation: Boolean(2) converts to true because 2 is a truthy value. <br>
      
-15. Explain the difference between the == and === operators.
+15. Explain the difference between the == and === operators. <br>
   The == operator is called the "abstract equality" operator. It compares two values for equality after performing type coercion.
   The === operator, on the other hand, is called the "strict equality" operator. It compares two values for equality without 
   performing type coercion.
