@@ -124,3 +124,5 @@ For each of the following questions, note down the output as well as a brief exp
   
   
 18. (see part2-question18.js) <br>
+
+19. '1', '4', '3', '2' <br>
