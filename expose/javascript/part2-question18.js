@@ -1,5 +1,5 @@
 setInterval(() => {
   let d = new Date();
-  let time = d.toLocalTimeString();
+  let time = d.toLocaleTimeString();
   console.log(time);
 }, 1000);
